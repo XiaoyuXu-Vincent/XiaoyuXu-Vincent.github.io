@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xiaoyu Xu - Undergraduate Student at Fuzhou University, researching LLM Interpretability, Multimodal Learning, and RAG Systems">
+    <title>Xiaoyu Xu | Personal Academic Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Xiaoyu Xu</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#awards" class="nav-link">Awards</a></li>
+                <li><a href="#" class="nav-link nav-cv" id="cv-download">CV ↓</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Xiaoyu Xu <span class="hero-chinese">(许潇予)</span></h1>
+                <p class="hero-subtitle">Undergraduate Student</p>
+                <p class="hero-affiliation">
+                    <a href="https://www.fzu.edu.cn/" target="_blank" rel="noopener">Fuzhou University</a>, Software Engineering
+                </p>
+                <p class="hero-bio">
+                    I am a senior undergraduate student at Fuzhou University, ranked <strong>1st/89 (top 1.2%)</strong> in my major. 
+                    I am broadly interested in the <strong>mechanistic interpretability</strong> of foundation models. 
+                    My current research investigates (1) <strong>reasoning pathways and information flow</strong> in large language models, 
+                    and (2) <strong>geometric structures in latent representations</strong> of vision-language models. 
+                    I was fortunate to intern at Shanghai AI Lab in 2025.
+                </p>
+                <p class="hero-email">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <a href="mailto:isXiaoYuXu@outlook.com">isXiaoYuXu@outlook.com</a>
+                </p>
+                <div class="hero-links">
+                    <a href="https://github.com/XiaoyuXu-Vincent" target="_blank" rel="noopener" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" class="social-link" id="scholar-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+                        </svg>
+                        Google Scholar
+                    </a>
+                    <a href="mailto:isXiaoYuXu@outlook.com" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Email
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/avatar.jpg" alt="Xiaoyu Xu" class="avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news" id="news">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">📢</span> News
+            </h2>
+            <ul class="news-list">
+                <li class="news-item">
+                    <span class="news-date">[2024.12]</span>
+                    <span class="news-content">Paper accepted by <strong>IEEE Transactions on Consumer Electronics</strong> (SCI Q1)</span>
+                </li>
+                <li class="news-item">
+                    <span class="news-date">[2024.10]</span>
+                    <span class="news-content">Received <strong>National Scholarship</strong> (Top 0.3%, 4/1200)</span>
+                </li>
+                <li class="news-item">
+                    <span class="news-date">[2024.08]</span>
+                    <span class="news-content">Won <strong>First Prize</strong> in National Mathematical Modeling (Electrical Cup)</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="publications" id="publications">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">📄</span> Publications
+            </h2>
+            <div class="publication-list">
+                <article class="publication-card">
+                    <div class="publication-content">
+                        <h3 class="publication-title">Manifold-guided Geometric Enhancement for Reliable Multimodal Interaction in Consumer Electronics</h3>
+                        <p class="publication-authors">
+                            <strong>Xiaoyu Xu</strong>, et al.
+                        </p>
+                        <p class="publication-venue">
+                            <em>IEEE Transactions on Consumer Electronics</em> (SCI Q1)
+                        </p>
+                        <p class="publication-tldr">
+                            <strong>TL;DR:</strong> We propose <strong>MAGE</strong> (Manifold-guided Geometric Enhancement) to mitigate hallucination in LVLMs. 
+                            Our approach analyzes latent space curvature and adaptively injects corrections. 
+                            Achieved <strong>SOTA</strong> on CHAIR benchmark (48.0%/13.9% → 37.8%/11.2%) and MME (600.2 → 676.3).
+                        </p>
+                        <div class="publication-links">
+                            <a href="https://ieeexplore.ieee.org/document/11358388" target="_blank" rel="noopener" class="pub-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
+                                Paper
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">🔬</span> Research Experience
+            </h2>
+            <div class="timeline">
+                <!-- Project 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Information Flow Analysis in LLM Reasoning</h3>
+                            <span class="timeline-period">2024.06 - Present</span>
+                        </div>
+                        <p class="timeline-location">Fuzhou University</p>
+                        <p class="timeline-desc">
+                            Investigating how large language models process and propagate information during multi-step reasoning tasks.
+                        </p>
+                        <ul class="timeline-points">
+                            <li>Proposed <strong>Step-Saliency</strong>, a method that maps token-level saliency scores to step-level reasoning flow, enabling fine-grained diagnosis of reasoning failures</li>
+                            <li>Developed <strong>StepFlow</strong>, a training-free framework that identifies "shallow-layer lockup" and "deep-layer decay" failure modes for early prediction of reasoning breakdowns</li>
+                            <li>Achieved significant improvements: R1-Distill-32B <strong>+11.8</strong> on AIME25, GPT-OSS-20B <strong>+9.5</strong> on LiveCodeBench</li>
+                        </ul>
+                        <p class="timeline-outcome">[First-author paper under review]</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Latent Space Geometry in Vision-Language Models</h3>
+                            <span class="timeline-period">2024.03 - 2024.12</span>
+                        </div>
+                        <p class="timeline-location">Fuzhou University</p>
+                        <p class="timeline-desc">
+                            Analyzing geometric properties of LVLM hidden representations to understand and mitigate hallucination.
+                        </p>
+                        <ul class="timeline-points">
+                            <li>Led research on latent space geometry analysis, proposed <strong>"angular dispersion"</strong> metric to characterize the depth-wise transition from near-linear to high-curvature manifolds</li>
+                            <li>Designed <strong>MAGE</strong> (Manifold-guided Geometric Enhancement), an adaptive layer-wise intervention strategy based on visual token projection and curvature estimation</li>
+                            <li>Achieved SOTA on hallucination benchmarks: CHAIR sentence/instance level reduced from 48.0%/13.9% to <strong>37.8%/11.2%</strong>, MME score improved from 600.2 to <strong>676.3</strong></li>
+                        </ul>
+                        <p class="timeline-outcome">[First-author paper accepted by IEEE TCE (SCI Q1)]</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Research Intern</h3>
+                            <span class="timeline-period">2024.07 - 2024.10</span>
+                        </div>
+                        <p class="timeline-location">Shanghai AI Lab — Trustworthy AI Center</p>
+                        <p class="timeline-desc">
+                            Built enterprise-level RAG system with Query-Rewrite–Generation pipeline.
+                        </p>
+                        <ul class="timeline-points">
+                            <li>Designed controllable LLM <strong>Query-Rewrite</strong> strategies (instruction-tuned rewriting with length/redundancy constraints) to balance colloquial noise and long-tail retrieval</li>
+                            <li>Built hybrid recall architecture: "BM25 + Qwen-Embedding + Milvus(HNSW)" with Cross-Encoder refined two-stage pipeline, based on RAGAS and TruLens for automated evaluation</li>
+                            <li>Improved RAGAS composite score from 0.62 to <strong>0.74</strong> (faithfulness & context precision +0.10), TruLens RAG triad average +20%, P95 latency <strong>-35%</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">🎓</span> Education
+            </h2>
+            <div class="education-card">
+                <div class="education-logo">
+                    <img src="images/fzu-logo.png" alt="Fuzhou University" onerror="this.style.display='none'">
+                </div>
+                <div class="education-content">
+                    <h3 class="education-school">Fuzhou University <span class="education-tag">211 Project</span></h3>
+                    <p class="education-degree">B.E. in Software Engineering</p>
+                    <p class="education-period">2023.08 - 2027.06 (Expected)</p>
+                    <ul class="education-details">
+                        <li><strong>GPA Ranking:</strong> 1/89 (Top 1.2%)</li>
+                        <li><strong>Core Courses:</strong> Computer Architecture (95), Theory of Computation (97), Algorithms & Data Structures (90), Web Information Processing (100), Statistics (90)</li>
+                        <li><strong>English:</strong> CET-4: 601, CET-6: 578</li>
+                        <li><strong>Honors:</strong> National Scholarship (4/1200), University Scholarship (3 times), Merit Student</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards" id="awards">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">🏆</span> Honors & Awards
+            </h2>
+            <div class="awards-grid">
+                <div class="awards-category">
+                    <h3 class="awards-category-title">Academic Honors</h3>
+                    <ul class="awards-list">
+                        <li class="award-item award-gold">
+                            <span class="award-icon">🥇</span>
+                            <span class="award-name">National Scholarship (Top 0.3%, 4/1200)</span>
+                            <span class="award-date">2024-25</span>
+                        </li>
+                        <li class="award-item">
+                            <span class="award-icon">🎖️</span>
+                            <span class="award-name">University Scholarship (3 times)</span>
+                            <span class="award-date">2024-25</span>
+                        </li>
+                        <li class="award-item">
+                            <span class="award-icon">⭐</span>
+                            <span class="award-name">Merit Student, Fuzhou University</span>
+                            <span class="award-date">2024-25</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="awards-category">
+                    <h3 class="awards-category-title">Competition Awards</h3>
+                    <ul class="awards-list">
+                        <li class="award-item award-gold">
+                            <span class="award-icon">🥇</span>
+                            <span class="award-name">National Math Modeling (Electrical Cup) — First Prize</span>
+                            <span class="award-date">2024.08</span>
+                        </li>
+                        <li class="award-item">
+                            <span class="award-icon">🥈</span>
+                            <span class="award-name">MCM/ICM Mathematical Contest — Honorable Mention</span>
+                            <span class="award-date">2025.05</span>
+                        </li>
+                        <li class="award-item">
+                            <span class="award-icon">🥉</span>
+                            <span class="award-name">National English Competition — Third Prize (National)</span>
+                            <span class="award-date">2024.05</span>
+                        </li>
+                        <li class="award-item">
+                            <span class="award-icon">🥉</span>
+                            <span class="award-name">National Statistical Modeling — Third Prize</span>
+                            <span class="award-date">2025.09</span>
+                        </li>
+                        <li class="award-item">
+                            <span class="award-icon">🥉</span>
+                            <span class="award-name">Mobile Application Innovation (East China) — Third Prize</span>
+                            <span class="award-date">2025.08</span>
+                        </li>
+                        <li class="award-item">
+                            <span class="award-icon">🥉</span>
+                            <span class="award-name">China Service Outsourcing Competition — Third Prize</span>
+                            <span class="award-date">2025.05</span>
+                        </li>
+                        <li class="award-item">
+                            <span class="award-icon">🥉</span>
+                            <span class="award-name">China Collegiate Computer Design Competition — Third Prize</span>
+                            <span class="award-date">2025.07</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-icon">💻</span> Skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Bash</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frameworks & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Research Areas</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">LLM Reasoning</span>
+                        <span class="skill-tag">Multimodal Learning</span>
+                        <span class="skill-tag">RAG</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">© 2025 Xiaoyu Xu. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/XiaoyuXu-Vincent" target="_blank" rel="noopener">GitHub</a>
+                    <a href="#" id="footer-scholar">Google Scholar</a>
+                    <a href="mailto:isXiaoYuXu@outlook.com">Email</a>
+                </div>
+                <p class="footer-powered">Powered by GitHub Pages</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
