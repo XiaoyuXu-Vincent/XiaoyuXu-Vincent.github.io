@@ -131,25 +131,9 @@
     }
 
     // ========================================
-    // Google Scholar Link Placeholder
+    // Google Scholar Link (configured)
     // ========================================
-    const scholarLinks = [
-        document.getElementById('scholar-link'),
-        document.getElementById('footer-scholar')
-    ];
-    
-    scholarLinks.forEach(link => {
-        if (link) {
-            link.addEventListener('click', (e) => {
-                // TODO: Update with actual Google Scholar URL
-                const scholarUrl = link.getAttribute('href');
-                if (scholarUrl === '#') {
-                    e.preventDefault();
-                    alert('Google Scholar link will be added soon.');
-                }
-            });
-        }
-    });
+    // Google Scholar link is now set in HTML
 
     // ========================================
     // Intersection Observer for Animations
