@@ -1,26 +1,28 @@
-/* Classic Academic Homepage */
+/* AcadHomepage-style Academic Homepage */
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 16px;
     line-height: 1.6;
-    color: #333;
+    color: #494e52;
     background: #fff;
+    -webkit-text-size-adjust: 100%;
 }
 
 a {
-    color: #0366d6;
+    color: #52adc8;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #000;
 }
 
 img {
@@ -28,41 +30,46 @@ img {
     height: auto;
 }
 
-/* Navbar */
-.navbar {
-    border-bottom: 1px solid #ddd;
-    background: #fafafa;
-    padding: 10px 0;
+strong {
+    color: #000;
 }
 
-.nav-inner {
-    max-width: 960px;
+/* Masthead / Top Navigation */
+.masthead {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+
+.masthead__inner {
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 12px 1em;
     display: flex;
     flex-wrap: wrap;
-    gap: 8px 24px;
-}
-
-.nav-link {
+    gap: 4px 20px;
     font-size: 14px;
-    color: #333;
-    padding: 4px 0;
 }
 
-.nav-link:hover,
-.nav-link.active {
-    color: #0366d6;
+.masthead__inner a {
+    color: #494e52;
     text-decoration: none;
+    padding: 4px 0;
+    border-bottom: 2px solid transparent;
 }
 
-/* Main Layout */
-.main-wrapper {
-    max-width: 960px;
+.masthead__inner a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom-color: #000;
+}
+
+/* Main Container */
+#main {
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 2em 1em 1em;
     display: flex;
-    gap: 40px;
+    gap: 20px;
     align-items: flex-start;
 }
 
@@ -70,173 +77,128 @@ img {
 .sidebar {
     width: 200px;
     flex-shrink: 0;
-    text-align: center;
-}
-
-.profile-photo img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.profile-name {
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 12px;
-    color: #222;
-}
-
-.profile-affiliation {
     font-size: 14px;
-    color: #555;
-    margin-top: 4px;
 }
 
-.profile-motto {
-    font-size: 13px;
-    color: #888;
-    margin-top: 8px;
+.author__avatar img {
+    max-width: 175px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
 }
 
-.profile-info {
+.author__content {
+    margin-top: 10px;
+}
+
+.author__name {
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0 0 4px;
+    color: #000;
+}
+
+.author__bio {
+    margin: 0 0 4px;
+    color: #7a8288;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.author__urls {
     list-style: none;
-    margin-top: 16px;
-    text-align: left;
+    margin-top: 14px;
+    padding: 0;
+}
+
+.author__urls li {
+    margin-bottom: 5px;
+    padding: 2px 0;
+    color: #494e52;
+    white-space: nowrap;
     font-size: 14px;
 }
 
-.profile-info li {
-    margin-bottom: 6px;
+.author__urls li a {
+    color: inherit;
+    text-decoration: none;
 }
 
-/* Content */
-.content {
+.author__urls li a:hover {
+    text-decoration: underline;
+}
+
+.author__urls li i {
+    width: 1.25em;
+    text-align: center;
+    margin-right: 4px;
+    color: #494e52;
+}
+
+/* Page Content */
+.page {
     flex: 1;
     min-width: 0;
 }
 
-section {
-    margin-bottom: 32px;
+.page__content p {
+    margin: 0 0 1em;
 }
 
-section h2 {
-    font-size: 22px;
-    font-weight: 700;
+.page__content a {
+    text-decoration: underline;
+}
+
+.page__content a:hover {
+    color: #000;
+}
+
+.page__content h1 {
+    font-size: 1.6em;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #e0e0e0;
     color: #222;
-    margin-bottom: 14px;
-    padding-bottom: 6px;
-    border-bottom: 1px solid #eee;
 }
 
-.bio {
-    margin-bottom: 12px;
-    line-height: 1.7;
-}
-
-/* News */
-.news-list {
+.page__content ul {
+    margin: 0 0 1em;
+    padding-left: 1.5em;
     list-style: disc;
-    padding-left: 20px;
 }
 
-.news-list li {
-    margin-bottom: 8px;
-    line-height: 1.6;
+.page__content ul ul {
+    margin-bottom: 0;
+    margin-top: 0.3em;
 }
 
-/* Publications */
-.pub-item {
-    margin-bottom: 20px;
-    padding-bottom: 16px;
+.page__content li {
+    margin-bottom: 0.4em;
+}
+
+.page__content li em {
+    color: #7a8288;
+}
+
+/* Paper boxes */
+.paper-box {
+    margin-bottom: 1.2em;
+    padding-bottom: 1em;
     border-bottom: 1px solid #f0f0f0;
 }
 
-.pub-item:last-child {
+.paper-box:last-of-type {
     border-bottom: none;
 }
 
-.pub-title {
-    font-weight: 600;
-    margin-bottom: 4px;
-    line-height: 1.4;
-}
-
-.pub-title a {
-    color: #0366d6;
-}
-
-.pub-authors {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 2px;
-}
-
-.pub-venue {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 4px;
-}
-
-.pub-links {
-    font-size: 14px;
-}
-
-.pub-links a {
-    color: #0366d6;
-}
-
-/* Awards */
-.awards-list {
-    list-style: disc;
-    padding-left: 20px;
-}
-
-.awards-list li {
-    margin-bottom: 6px;
-    line-height: 1.5;
-}
-
-/* Education & Experience */
-.edu-item,
-.exp-item {
-    margin-bottom: 16px;
-}
-
-.edu-item ul,
-.exp-item ul {
-    list-style: disc;
-    padding-left: 20px;
-    margin-top: 6px;
-}
-
-.edu-item li,
-.exp-item li {
-    margin-bottom: 4px;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-/* Footer */
-footer {
-    margin-top: 40px;
-    padding-top: 16px;
-}
-
-footer hr {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin-bottom: 12px;
-}
-
-footer p {
-    font-size: 13px;
-    color: #999;
+.paper-box-text p {
+    margin: 0 0 4px;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-    .main-wrapper {
+    #main {
         flex-direction: column;
         align-items: center;
     }
@@ -244,13 +206,24 @@ footer p {
     .sidebar {
         width: 100%;
         max-width: 300px;
+        text-align: center;
+        margin-bottom: 1em;
     }
 
-    .content {
+    .author__avatar img {
+        max-width: 150px;
+    }
+
+    .author__urls {
+        text-align: left;
+        display: inline-block;
+    }
+
+    .page {
         width: 100%;
     }
 
-    .nav-inner {
+    .masthead__inner {
         justify-content: center;
     }
 }
