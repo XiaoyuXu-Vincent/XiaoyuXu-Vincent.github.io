@@ -32,17 +32,23 @@ My research interests lie in understanding the internal working mechanisms of **
 # 📝 Publications 
 
 <div class="pub-entry">
-  <div class="pub-title">Reasoning Fails Where Step Flow Breaks</div>
-  <div class="pub-authors"><strong>Xiaoyu Xu</strong>, Yulan Pan, Xiaosong Yuan, Zhihong Shen, Minghao Su, Yuanhao Su, Xiaofeng Zhang</div>
-  <div class="pub-venue"><strong>ACL 2026 Main Conference</strong> (CCF-A)</div>
-  <div class="pub-links"><a href="https://arxiv.org/pdf/2604.06695">Paper</a> | <a href="https://github.com/XiaoyuXu-Vincent/step-saliency">Code</a></div>
+  <div class="pub-img"><img src="images/paper1_motivation.png" alt="Step Saliency"></div>
+  <div class="pub-info">
+    <div class="pub-title">Reasoning Fails Where Step Flow Breaks</div>
+    <div class="pub-authors"><strong>Xiaoyu Xu</strong>, Yulan Pan, Xiaosong Yuan, Zhihong Shen, Minghao Su, Yuanhao Su, Xiaofeng Zhang</div>
+    <div class="pub-venue"><strong>ACL 2026 Main Conference</strong> (CCF-A)</div>
+    <div class="pub-links"><a href="https://arxiv.org/pdf/2604.06695">Paper</a> <a href="https://github.com/XiaoyuXu-Vincent/step-saliency">Code</a></div>
+  </div>
 </div>
 
 <div class="pub-entry">
-  <div class="pub-title">Manifold-guided Geometric Enhancement for Reliable Multimodal Interaction in Consumer Electronics</div>
-  <div class="pub-authors"><strong>Xiaoyu Xu</strong>, Yulan Pan, Xiaofeng Zhang, Xuhang Chen, Kim-Fung Tsang</div>
-  <div class="pub-venue"><strong>IEEE Transactions on Consumer Electronics</strong> (SCI Q1)</div>
-  <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11358388">Paper</a></div>
+  <div class="pub-img"><img src="images/paper2_method.png" alt="Manifold-guided Method"></div>
+  <div class="pub-info">
+    <div class="pub-title">Manifold-guided Geometric Enhancement for Reliable Multimodal Interaction in Consumer Electronics</div>
+    <div class="pub-authors"><strong>Xiaoyu Xu</strong>, Yulan Pan, Xiaofeng Zhang, Xuhang Chen, Kim-Fung Tsang</div>
+    <div class="pub-venue"><strong>IEEE Transactions on Consumer Electronics</strong> (SCI Q1)</div>
+    <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11358388">Paper</a></div>
+  </div>
 </div>
 
 # 📖 Educations
