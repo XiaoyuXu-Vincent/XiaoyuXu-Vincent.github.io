@@ -31,18 +31,19 @@ My research interests lie in understanding the internal working mechanisms of **
 
 # 📝 Publications 
 
-- [Reasoning Fails Where Step Flow Breaks](https://arxiv.org/pdf/2604.06695), **Xiaoyu Xu**, Yulan Pan, Xiaosong Yuan, Zhihong Shen, Minghao Su, Yuanhao Su, Xiaofeng Zhang, **ACL 2026 Main Conference** (CCF-A) \| [Paper](https://arxiv.org/pdf/2604.06695) \| [Code](https://github.com/XiaoyuXu-Vincent/step-saliency)
+<div class="pub-entry">
+  <div class="pub-title">Reasoning Fails Where Step Flow Breaks</div>
+  <div class="pub-authors"><strong>Xiaoyu Xu</strong>, Yulan Pan, Xiaosong Yuan, Zhihong Shen, Minghao Su, Yuanhao Su, Xiaofeng Zhang</div>
+  <div class="pub-venue"><strong>ACL 2026 Main Conference</strong> (CCF-A)</div>
+  <div class="pub-links"><a href="https://arxiv.org/pdf/2604.06695">Paper</a> | <a href="https://github.com/XiaoyuXu-Vincent/step-saliency">Code</a></div>
+</div>
 
-- [Manifold-guided Geometric Enhancement for Reliable Multimodal Interaction in Consumer Electronics](https://ieeexplore.ieee.org/document/11358388), **Xiaoyu Xu**, Yulan Pan, Xiaofeng Zhang, Xuhang Chen, Kim-Fung Tsang, **IEEE Transactions on Consumer Electronics** (SCI Q1)
-
-# 🎖 Honors and Awards
-- *2025.05*, MCM/ICM Mathematical Contest — Honorable Mention
-- *2024-25*, National Scholarship (Top 0.3%, 4/1200)
-- *2024-25*, University Scholarship (3 times)
-- *2025*, Merit Student, Fuzhou University
-- *2024.08*, National Math Modeling (Electrical Cup) — First Prize
-- *2024.05*, National English Competition — Third Prize (National)
-- *2025.05*, China Service Outsourcing Competition — Third Prize
+<div class="pub-entry">
+  <div class="pub-title">Manifold-guided Geometric Enhancement for Reliable Multimodal Interaction in Consumer Electronics</div>
+  <div class="pub-authors"><strong>Xiaoyu Xu</strong>, Yulan Pan, Xiaofeng Zhang, Xuhang Chen, Kim-Fung Tsang</div>
+  <div class="pub-venue"><strong>IEEE Transactions on Consumer Electronics</strong> (SCI Q1)</div>
+  <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11358388">Paper</a></div>
+</div>
 
 # 📖 Educations
 - *2023.08 - 2027.06 (Expected)*, B.E. in Computer Science and Software Engineering, **Fuzhou University** (211 Project). GPA Ranking: 1/89 (Top 1.2%).
