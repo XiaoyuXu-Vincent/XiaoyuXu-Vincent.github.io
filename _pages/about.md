@@ -1,7 +1,8 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Xiaoyu Xu (许潇予) - Academic Homepage"
+excerpt: "Xiaoyu Xu (许潇予), Computer Science undergraduate at Fuzhou University. Research on LLM interpretability, mechanistic interpretability, and visualization."
+description: "Xiaoyu Xu (许潇予), Computer Science undergraduate at Fuzhou University. Research interests in Large Language Models, mechanistic interpretability, and visualization. Published at ACL 2026 and IEEE Transactions on Consumer Electronics."
 author_profile: true
 redirect_from: 
   - /about/

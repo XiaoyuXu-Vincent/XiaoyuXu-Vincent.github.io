@@ -6,8 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xiaoyu Xu"
-description              : "Xiaoyu Xu's Academic Homepage. Undergraduate at Fuzhou University."
+title                    : "Xiaoyu Xu | 许潇予"
+description              : "Xiaoyu Xu (许潇予) - Academic Homepage. Computer Science undergraduate at Fuzhou University. Research on LLM interpretability, mechanistic interpretability, and visualization. ACL 2026, IEEE TCE."
+url                      : "https://xiaoyuxu-vincent.github.io"
 repository               : "XiaoyuXu-Vincent/XiaoyuXu-Vincent.github.io"
 google_scholar_stats_use_cdn : true
 
