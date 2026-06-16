@@ -20,7 +20,7 @@ redirect_from:
 
 I am a junior undergraduate student at [Fuzhou University](https://www.fzu.edu.cn/), majoring in Computer Science and Software Engineering (**GPA Ranking: 1/89, Top 1.2%**).
 
-My research interests lie in understanding the internal working mechanisms of **Large Language Models (LLMs)** and **LLM-based Agents**, with a focus on **mechanistic interpretability** and **visualization**. I have interned at [Shanghai AI Lab](https://www.shlab.org.cn/) and [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
+My research interests lie in understanding the internal working mechanisms of **Large Language Models (LLMs)** and **LLM-based Agents**, with a focus on **mechanistic interpretability** and **visualization**. I have interned at [Shanghai AI Lab](https://www.shlab.org.cn/).
 
 *海到无边天作岸，山登绝顶我为峰。*
 
@@ -28,7 +28,6 @@ My research interests lie in understanding the internal working mechanisms of **
 - *2026.04*: &nbsp;🎉🎉 One first author paper accepted by **ACL 2026 Main Conference** (CCF-A).
 - *2026.01*: &nbsp;🎉🎉 One first author paper accepted by **IEEE Transactions on Consumer Electronics** (SCI Q1).
 - *2025.10*: &nbsp;🎉🎉 Received **National Scholarship** (Top 0.3%, 4/1200).
-- *2024.08*: &nbsp;🎉🎉 Won **First Prize** in National Mathematical Modeling (Electrical Cup).
 
 # 📝 Publications 
 
@@ -57,4 +56,3 @@ My research interests lie in understanding the internal working mechanisms of **
 
 # 💻 Internships
 - *2025.07 - 2025.10*, Research Intern, [Shanghai AI Lab](https://www.shlab.org.cn/) — Trustworthy AI Center.
-- *2026.03 - Present*, Research Intern, [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
