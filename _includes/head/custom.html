@@ -21,6 +21,68 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 <style>
+  /* Keep the navigation styled in local file previews as well as on GitHub Pages. */
+  .site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  .site-nav a {
+    color: #7a8288;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .site-nav__brand {
+    font-weight: 700;
+  }
+  .site-nav__links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .site-nav__mobile {
+    display: none;
+  }
+  @media (max-width: 767px) {
+    .site-nav__links {
+      display: none;
+    }
+    .site-nav__mobile {
+      display: block;
+      position: relative;
+      margin-left: auto;
+    }
+    .site-nav__mobile summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 0.4rem 0.65rem;
+      border: 1px solid #f2f3f3;
+      border-radius: 4px;
+    }
+    .site-nav__mobile summary::-webkit-details-marker {
+      display: none;
+    }
+    .site-nav__mobile summary:after {
+      content: " ☰";
+    }
+    .site-nav__mobile-links {
+      position: absolute;
+      right: 0;
+      top: calc(100% + 0.5rem);
+      min-width: 11rem;
+      padding: 0.35rem;
+      border: 1px solid #f2f3f3;
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+    .site-nav__mobile-links a {
+      display: block;
+      padding: 0.55rem 0.75rem;
+    }
+  }
+
   .pub-entry {
     display: flex;
     align-items: flex-start;
