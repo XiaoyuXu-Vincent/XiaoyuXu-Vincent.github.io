@@ -2,7 +2,6 @@
 {% if site.url %}
   {% assign seo_url = site.url %}
 {% endif %}
-{% assign seo_url = seo_url | default: site.github.url %}
 
 {% if site.url %}
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
@@ -17,7 +16,7 @@
 
 {% if seo_description %}
   <meta name="description" content="{{ seo_description }}">
-  <meta name="keywords" content="Xiaoyu Xu, 许潇予, Fuzhou University, LLM, mechanistic interpretability, ACL, visualization">
+  <meta name="keywords" content="Xiaoyu Xu, 许潇予, Fuzhou University, language models, vision-language models, reasoning, multimodal hallucination, model reliability">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}

@@ -268,3 +268,40 @@
     display: none;
   }
 }
+
+@media (max-width: 600px) {
+  .profile_box {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr);
+    column-gap: 12px;
+    row-gap: 4px;
+    align-items: center;
+  }
+
+  .author__avatar {
+    width: 64px;
+
+    img {
+      width: 64px;
+      height: 64px;
+      min-width: 0;
+      object-fit: cover;
+    }
+  }
+
+  .author__content {
+    min-width: 0;
+    padding-left: 0;
+  }
+
+  .author__urls-wrapper {
+    grid-column: 2;
+    margin-left: 0;
+  }
+
+  .author__urls_sm {
+    display: flex;
+    gap: 0.8rem;
+    padding: 0;
+  }
+}

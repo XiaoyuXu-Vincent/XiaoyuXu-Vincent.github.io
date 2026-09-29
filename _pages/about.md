@@ -1,8 +1,8 @@
 ---
 permalink: /
 title: "Xiaoyu Xu (许潇予) - Academic Homepage"
-excerpt: "Xiaoyu Xu (许潇予), Computer Science undergraduate at Fuzhou University. Research on LLM interpretability, mechanistic interpretability, and visualization."
-description: "Xiaoyu Xu (许潇予), Computer Science undergraduate at Fuzhou University. Research interests in Large Language Models, mechanistic interpretability, and visualization. Published at ACL 2026 and IEEE Transactions on Consumer Electronics."
+excerpt: "Xiaoyu Xu (许潇予), Software Engineering undergraduate at Fuzhou University. Research on reasoning failures and multimodal reliability."
+description: "Xiaoyu Xu (许潇予) studies the internal mechanisms of language and vision-language models, focusing on reasoning failures and multimodal hallucinations. First-author work at ACL 2026 and IEEE Transactions on Consumer Electronics."
 author_profile: true
 redirect_from: 
   - /about/
@@ -18,41 +18,43 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a junior undergraduate student at [Fuzhou University](https://www.fzu.edu.cn/), majoring in Computer Science and Software Engineering (**GPA Ranking: 1/89, Top 1.2%**).
+I am a final-year Software Engineering undergraduate at [Fuzhou University](https://www.fzu.edu.cn/) (**GPA rank: 1/89**).
 
-My research interests lie in understanding the internal working mechanisms of **Large Language Models (LLMs)** and **LLM-based Agents**, with a focus on **mechanistic interpretability** and **visualization**. I have interned at [Shanghai AI Lab](https://www.shlab.org.cn/).
+I study the internal mechanisms of **language and vision-language models**, focusing on failures in multi-step reasoning and multimodal hallucinations. My goal is to use these findings to improve model reliability. I previously interned at [Shanghai AI Lab](https://www.shlab.org.cn/).
 
 *海到无边天作岸，山登绝顶我为峰。*
 
-# 🔥 News
-- *2026.04*: &nbsp;🎉🎉 One first author paper accepted by **ACL 2026 Main Conference** (CCF-A).
-- *2026.01*: &nbsp;🎉🎉 One first author paper accepted by **IEEE Transactions on Consumer Electronics** (SCI Q1).
-- *2025.10*: &nbsp;🎉🎉 Received **National Scholarship** (Top 0.3%, 4/1200).
+## News
+- *2026.04*: First-author paper accepted — [ACL 2026 Main Conference](https://aclanthology.org/2026.acl-long.1212/).
+- *2026.01*: First-author paper accepted — [IEEE Transactions on Consumer Electronics](https://ieeexplore.ieee.org/document/11358388).
+- *2025.10*: Received the **National Scholarship** (4 of 1,200 students).
 
-# 📝 Publications 
+## Publications
 
 <div class="pub-entry">
-  <div class="pub-img"><img src="images/paper1_motivation.png" alt="Step Saliency"></div>
+  <div class="pub-img"><img src="images/paper1_motivation.png" alt="Step-level saliency analysis of reasoning failures"></div>
   <div class="pub-info">
     <div class="pub-title">Reasoning Fails Where Step Flow Breaks</div>
     <div class="pub-authors"><strong>Xiaoyu Xu</strong>, Yulan Pan, Xiaosong Yuan, Zhihong Shen, Minghao Su, Yuanhao Su, Xiaofeng Zhang</div>
     <div class="pub-venue"><strong>ACL 2026 Main Conference</strong> (CCF-A)</div>
-    <div class="pub-links"><a href="https://arxiv.org/pdf/2604.06695">Paper</a> <a href="https://github.com/XiaoyuXu-Vincent/step-saliency">Code</a></div>
+    <p class="pub-summary">Step-level saliency reveals recurring information-flow failures in long reasoning traces and guides a training-free repair.</p>
+    <div class="pub-links"><a href="https://aclanthology.org/2026.acl-long.1212/">Paper</a> <a href="https://arxiv.org/pdf/2604.06695">arXiv</a> <a href="https://github.com/XiaoyuXu-Vincent/step-saliency">Code</a></div>
   </div>
 </div>
 
 <div class="pub-entry">
-  <div class="pub-img"><img src="images/paper2_method.png" alt="Manifold-guided Method"></div>
+  <div class="pub-img"><img src="images/paper2_method.png" alt="Manifold-guided intervention for multimodal hallucination"></div>
   <div class="pub-info">
     <div class="pub-title">Manifold-guided Geometric Enhancement for Reliable Multimodal Interaction in Consumer Electronics</div>
     <div class="pub-authors"><strong>Xiaoyu Xu</strong>, Yulan Pan, Xiaofeng Zhang, Xuhang Chen, Kim-Fung Tsang</div>
-    <div class="pub-venue"><strong>IEEE Transactions on Consumer Electronics</strong> (SCI Q1)</div>
+    <div class="pub-venue"><strong>IEEE Transactions on Consumer Electronics</strong> (JCR Q1)</div>
+    <p class="pub-summary">Studies how multimodal representations change across layers and uses their geometry to reduce hallucinations.</p>
     <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11358388">Paper</a></div>
   </div>
 </div>
 
-# 📖 Educations
-- *2023.08 - 2027.06 (Expected)*, B.E. in Computer Science and Software Engineering, **Fuzhou University** (211 Project). GPA Ranking: 1/89 (Top 1.2%).
+## Education
+- *2023.08 - 2027.06 (Expected)*, B.E. in Software Engineering, **Fuzhou University** (Maynooth International Engineering College).
 
-# 💻 Internships
+## Experience
 - *2025.07 - 2025.10*, Research Intern, [Shanghai AI Lab](https://www.shlab.org.cn/) — Trustworthy AI Center.

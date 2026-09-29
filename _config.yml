@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaoyu Xu | 许潇予"
-description              : "Xiaoyu Xu (许潇予) - Academic Homepage. Computer Science undergraduate at Fuzhou University. Research on LLM interpretability, mechanistic interpretability, and visualization. ACL 2026, IEEE TCE."
+description              : "Xiaoyu Xu (许潇予) is a Software Engineering undergraduate at Fuzhou University studying the internal mechanisms and reliability of language and vision-language models."
 url                      : "https://xiaoyuxu-vincent.github.io"
 repository               : "XiaoyuXu-Vincent/XiaoyuXu-Vincent.github.io"
 google_scholar_stats_use_cdn : true
