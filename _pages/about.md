@@ -21,7 +21,7 @@ redirect_from:
 
 I will join the [NLP Group at Fudan University](https://nlp.fudan.edu.cn/) as a doctoral student in 2027.
 
-I study the internal mechanisms of **language and vision-language models**.
+I study the internal mechanisms of **language and vision-language models**. I am curious about how models represent knowledge, integrate information across modalities, and develop complex capabilities through learning and inference.
 
 *海到无边天作岸，山登绝顶我为峰。*
 
