@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaoyu Xu | 许潇予"
-description              : "Xiaoyu Xu (许潇予) is a Software Engineering undergraduate at Fuzhou University studying the internal mechanisms and reliability of language and vision-language models."
+description              : "Xiaoyu Xu (许潇予), incoming doctoral student at Fudan University in 2027, studies the internal mechanisms of language and vision-language models."
 url                      : "https://xiaoyuxu-vincent.github.io"
 repository               : "XiaoyuXu-Vincent/XiaoyuXu-Vincent.github.io"
 google_scholar_stats_use_cdn : true
@@ -24,8 +24,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiaoyu Xu (许潇予)"
   avatar           : "images/avatar.jpg"
-  bio              : "Fuzhou University"
-  location         : "Fuzhou, China"
+  bio              : "Fudan University"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=cuPBhxkAAAAJ"

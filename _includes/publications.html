@@ -1,0 +1,14 @@
+{% assign is_chinese = false %}
+{% if page.lang == 'zh-CN' %}{% assign is_chinese = true %}{% endif %}
+{% for publication in site.data.publications %}
+<div class="pub-entry">
+  <div class="pub-img"><img src="{{ publication.image | relative_url }}" alt="{% if is_chinese %}{{ publication.alt_zh | escape }}{% else %}{{ publication.alt_en | escape }}{% endif %}"></div>
+  <div class="pub-info">
+    <div class="pub-title" lang="en">{{ publication.title | escape }}</div>
+    <div class="pub-authors" lang="en">{% for name in publication.authors %}{% if name == 'Xiaoyu Xu' %}<strong>{{ name }}</strong>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+    <div class="pub-venue" lang="en"><strong>{{ publication.venue }}</strong>{% if publication.venue_note %} ({{ publication.venue_note }}){% endif %}</div>
+    <p class="pub-summary">{% if is_chinese %}{{ publication.summary_zh }}{% else %}{{ publication.summary_en }}{% endif %}</p>
+    <div class="pub-links">{% for link in publication.links %}<a href="{{ link.url }}">{% if is_chinese and link.label == 'Paper' %}论文{% elsif is_chinese and link.label == 'Code' %}代码{% else %}{{ link.label }}{% endif %}</a> {% endfor %}</div>
+  </div>
+</div>
+{% endfor %}

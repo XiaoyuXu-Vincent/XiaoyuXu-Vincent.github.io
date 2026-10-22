@@ -1,20 +1,27 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a class="site-nav__brand" href="#about-me">Xiaoyu Xu</a>
+    <nav class="site-nav" aria-label="{% if page.lang == 'zh-CN' %}主导航{% else %}Primary navigation{% endif %}">
+      <a class="site-nav__brand" href="#about-me">{% if page.lang == 'zh-CN' %}许潇予{% else %}Xiaoyu Xu{% endif %}</a>
       <div class="site-nav__links">
         {% for link in site.data.navigation.main %}
-          <a href="{{ link.url }}">{{ link.title }}</a>
+          <a href="{{ link.url }}">{% if page.lang == 'zh-CN' %}{{ link.title_zh }}{% else %}{{ link.title }}{% endif %}</a>
         {% endfor %}
       </div>
-      <details class="site-nav__mobile">
-        <summary>Menu</summary>
+      <div class="site-nav__actions">
+        {% if page.lang == 'zh-CN' %}
+          <a class="site-nav__language" href="{{ '/' | relative_url }}" lang="en" hreflang="en" aria-label="Switch to English">English</a>
+        {% else %}
+          <a class="site-nav__language" href="{{ '/zh/' | relative_url }}" lang="zh-CN" hreflang="zh-CN" aria-label="切换到中文版">中文</a>
+        {% endif %}
+        <details class="site-nav__mobile">
+        <summary>{% if page.lang == 'zh-CN' %}菜单{% else %}Menu{% endif %}</summary>
         <div class="site-nav__mobile-links">
           {% for link in site.data.navigation.main %}
-            <a href="{{ link.url }}" onclick="this.closest('details').removeAttribute('open')">{{ link.title }}</a>
+            <a href="{{ link.url }}" onclick="this.closest('details').removeAttribute('open')">{% if page.lang == 'zh-CN' %}{{ link.title_zh }}{% else %}{{ link.title }}{% endif %}</a>
           {% endfor %}
         </div>
-      </details>
+        </details>
+      </div>
     </nav>
   </div>
 </div>

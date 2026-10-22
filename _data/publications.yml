@@ -1,0 +1,43 @@
+- title: "Reasoning Fails Where Step Flow Breaks"
+  authors: ["Xiaoyu Xu", "Yulan Pan", "Xiaosong Yuan", "Zhihong Shen", "Minghao Su", "Yuanhao Su", "Xiaofeng Zhang"]
+  venue: "ACL 2026 Main Conference"
+  venue_note: "CCF-A"
+  image: "/images/paper1_motivation.png"
+  alt_en: "Step-level saliency analysis of reasoning failures"
+  alt_zh: "通过步骤级显著性分析推理失败"
+  summary_en: "Step-level saliency reveals recurring information-flow failures in long reasoning traces and guides a training-free repair."
+  summary_zh: "通过步骤级显著性分析揭示长推理链中反复出现的信息流失效模式，并据此进行无需训练的修复。"
+  links:
+    - label: "Paper"
+      url: "https://aclanthology.org/2026.acl-long.1212/"
+    - label: "arXiv"
+      url: "https://arxiv.org/pdf/2604.06695"
+    - label: "Code"
+      url: "https://github.com/XiaoyuXu-Vincent/step-saliency"
+
+- title: "Manifold-guided Geometric Enhancement for Reliable Multimodal Interaction in Consumer Electronics"
+  authors: ["Xiaoyu Xu", "Yulan Pan", "Xiaofeng Zhang", "Xuhang Chen", "Kim-Fung Tsang"]
+  venue: "IEEE Transactions on Consumer Electronics"
+  venue_note: "JCR Q1"
+  image: "/images/paper2_method.png"
+  alt_en: "Manifold-guided intervention for multimodal hallucination"
+  alt_zh: "用于缓解多模态幻觉的流形引导干预方法"
+  summary_en: "Studies how multimodal representations change across layers and uses their geometry to reduce hallucinations."
+  summary_zh: "研究多模态表征随模型层深变化的几何结构，并利用这些结构缓解幻觉。"
+  links:
+    - label: "Paper"
+      url: "https://ieeexplore.ieee.org/document/11358388"
+
+- title: "The Image Still Has a Say: Final-Answer Repair for Multimodal Chain-of-Thought"
+  authors: ["Yulan Pan", "Xiaoyu Xu", "Zhihong Shen"]
+  venue: "preprint"
+  image: "/images/paper3_tver.png"
+  alt_en: "TVER repairs the final-answer readout using visual evidence while keeping the reasoning trace fixed"
+  alt_zh: "TVER 在保持推理链不变的情况下，利用视觉证据修复最终答案"
+  summary_en: "Reallocates attention toward visual evidence to repair final answers while keeping the multimodal reasoning trace fixed, without retraining."
+  summary_zh: "在保持多模态推理链不变的情况下，将部分注意力重新分配给视觉证据，以无需训练的方式修复最终答案。"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2610.17663"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2610.17663"
