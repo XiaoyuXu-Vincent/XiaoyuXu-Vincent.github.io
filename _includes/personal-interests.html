@@ -1,0 +1,26 @@
+{% assign interests_zh = false %}
+{% if page.lang == 'zh-CN' %}{% assign interests_zh = true %}{% endif %}
+<ul class="personal-interests">
+  <li class="personal-interest">
+    <svg class="interest-mark interest-mark--basketball" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true" focusable="false">
+      <circle cx="16" cy="16" r="12"/>
+      <path d="M4 16h24M16 4v24M7.5 7.5c11 3.5 11 13.5 0 17M24.5 7.5c-11 3.5-11 13.5 0 17"/>
+    </svg>
+    <div>
+      <h3>{% if interests_zh %}篮球{% else %}Basketball{% endif %}</h3>
+      <p>{% if interests_zh %}从 2015 年起，我就是保罗·乔治（Paul George）的忠实球迷。{% else %}I have been a devoted Paul George fan since 2015.{% endif %}</p>
+    </div>
+  </li>
+  <li class="personal-interest">
+    <svg class="interest-mark interest-mark--music" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true" focusable="false">
+      <circle cx="16" cy="16" r="12"/>
+      <circle cx="16" cy="16" r="3.4"/>
+      <circle cx="16" cy="16" r=".7" fill="currentColor" stroke="none"/>
+      <path d="M8 16a8 8 0 0 1 8-8M10.7 16a5.3 5.3 0 0 1 5.3-5.3M24 16a8 8 0 0 1-8 8M21.3 16a5.3 5.3 0 0 1-5.3 5.3"/>
+    </svg>
+    <div>
+      <h3>{% if interests_zh %}说唱音乐{% else %}Rap music{% endif %}</h3>
+      <p>{% if interests_zh %}Juice WRLD、Travis Scott 和 Asen艾志恒是我歌单里的常客。{% else %}Juice WRLD, Travis Scott, and Asen are regulars on my playlist.{% endif %}</p>
+    </div>
+  </li>
+</ul>
