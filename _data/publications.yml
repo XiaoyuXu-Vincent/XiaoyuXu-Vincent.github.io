@@ -5,8 +5,8 @@
   image: "/images/paper1_motivation.png"
   alt_en: "Step-level saliency analysis of reasoning failures"
   alt_zh: "通过步骤级显著性分析推理失败"
-  summary_en: "Step-level saliency reveals recurring information-flow failures in long reasoning traces and guides a training-free repair."
-  summary_zh: "分析长推理链中的信息流，定位并修正推理错误，无需重新训练模型。"
+  summary_en: "Long reasoning chains can lose access to earlier steps. Step-Saliency locates these information-flow failures, and StepFlow repairs them through shallow-layer attention rebalancing and deep-layer residual injection."
+  summary_zh: "长链推理中，前文信息可能被忽略或逐渐衰减。Step-Saliency 定位步骤间的信息流异常，StepFlow 通过浅层注意力调整和深层步骤级残差注入修复信息流。"
   links:
     - label: "Paper"
       url: "https://aclanthology.org/2026.acl-long.1212/"
@@ -22,8 +22,8 @@
   image: "/images/paper2_method.png"
   alt_en: "Manifold-guided intervention for multimodal hallucination"
   alt_zh: "用于缓解多模态幻觉的流形引导干预方法"
-  summary_en: "Studies how multimodal representations change across layers and uses their geometry to reduce hallucinations."
-  summary_zh: "分析模型各层多模态表征的几何结构，并据此进行干预，以减少幻觉。"
+  summary_en: "Linear steering can mismatch the curved geometry of multimodal representations. MAGE combines geodesic guidance, visual-evidence subspace filtering, and layer-adaptive residual injection to reduce hallucinations."
+  summary_zh: "多模态表征的几何结构随深度变化，统一的线性干预可能失效。MAGE 结合测地线引导、视觉证据子空间筛选和分层残差注入，减少幻觉。"
   links:
     - label: "Paper"
       url: "https://ieeexplore.ieee.org/document/11358388"
@@ -34,8 +34,8 @@
   image: "/images/paper3_tver.png"
   alt_en: "TVER repairs the final-answer readout using visual evidence while keeping the reasoning trace fixed"
   alt_zh: "TVER 在保持推理链不变的情况下，利用视觉证据修复最终答案"
-  summary_en: "Reallocates attention toward visual evidence to repair final answers while keeping the multimodal reasoning trace fixed, without retraining."
-  summary_zh: "保留已有推理过程，在生成最终答案时引导模型重新关注图像证据；无需重新训练模型。"
+  summary_en: "We trace answer preferences and image-to-answer information flow, finding that reasoning can lock onto a wrong answer while visual evidence still favors the correct one. TVER uses this evidence to repair the final readout."
+  summary_zh: "分析推理过程中的答案偏好与视觉信息流，发现模型可能提前锁定错误答案，而图像仍支持正确选项。TVER 据此在答案生成时重新分配注意力，让视觉证据参与纠错。"
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2610.17663"
