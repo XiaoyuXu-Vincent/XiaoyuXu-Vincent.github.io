@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaoyu Xu | 许潇予"
-description              : "Xiaoyu Xu (许潇予), incoming doctoral student at Fudan University in 2027, studies the internal mechanisms of language and vision-language models."
+description              : "Xiaoyu Xu (许潇予), incoming doctoral student at Fudan University in 2027. Research on multimodal large language models, representation learning, reasoning mechanisms, and interpretability."
 url                      : "https://xiaoyuxu-vincent.github.io"
 repository               : "XiaoyuXu-Vincent/XiaoyuXu-Vincent.github.io"
 google_scholar_stats_use_cdn : true

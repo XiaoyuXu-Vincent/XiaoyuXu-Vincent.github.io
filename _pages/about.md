@@ -3,7 +3,7 @@ permalink: /
 lang: en
 title: "Xiaoyu Xu (许潇予) - Academic Homepage"
 excerpt: "Xiaoyu Xu (许潇予), incoming doctoral student at Fudan University in 2027."
-description: "Xiaoyu Xu (许潇予) will join the NLP Group at Fudan University as a doctoral student in 2027. Research on the internal mechanisms of language and vision-language models."
+description: "Xiaoyu Xu (许潇予) will join the NLP Group at Fudan University as a doctoral student in 2027. Research on multimodal large language models, representation learning, reasoning mechanisms, and interpretability."
 author_profile: true
 profile_name: "Xiaoyu Xu"
 profile_name_alt: "许潇予"
@@ -23,7 +23,7 @@ redirect_from:
 
 I will join the [NLP Group at Fudan University](https://nlp.fudan.edu.cn/) as a doctoral student in 2027.
 
-I study the internal mechanisms of **language and vision-language models**. I am curious about how models represent knowledge, integrate information across modalities, and develop complex capabilities through learning and inference.
+My research focuses on **multimodal large language models**, particularly **representation learning, reasoning mechanisms, and interpretability**. I am interested in how multimodal representations form during learning and contribute to understanding and reasoning, and how model architecture and training methods shape these processes.
 
 <p class="contact-note">Feel free to <a href="mailto:{{ site.author.email }}">email me</a> about research, potential collaborations, or any ideas you'd like to share.</p>
 
