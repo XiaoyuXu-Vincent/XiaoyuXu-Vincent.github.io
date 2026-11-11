@@ -2,8 +2,8 @@
 permalink: /zh/
 lang: zh-CN
 title: "许潇予 - 个人主页"
-excerpt: "许潇予，将于 2027 年加入复旦大学自然语言处理实验室攻读博士。"
-description: "许潇予，将于 2027 年加入复旦大学自然语言处理实验室攻读博士，研究聚焦多模态大模型，重点关注表征学习、推理机制与可解释性。"
+excerpt: "许潇予，将于 2027 年加入复旦大学计算与智能创新学院的 FudanNLP 研究组，攻读博士学位。"
+description: "许潇予，将于 2027 年加入复旦大学计算与智能创新学院的 FudanNLP 研究组，攻读博士学位。研究方向为高效与可信的人工智能，重点关注大语言模型与多模态大语言模型。"
 author_profile: true
 profile_name: "许潇予"
 profile_name_alt: "Xiaoyu Xu"
@@ -13,9 +13,13 @@ profile_location: "上海，中国"
 
 <span class='anchor' id='about-me'></span>
 
-我将于 **2027 年**加入[复旦大学自然语言处理实验室](https://nlp.fudan.edu.cn/)，攻读博士学位。
+我将于 **2027 年**加入复旦大学计算与智能创新学院的 [FudanNLP](https://nlp.fudan.edu.cn/) 研究组，攻读博士学位。
 
-我的研究聚焦**多模态大模型**，重点关注**表征学习、推理机制与可解释性**。我关注多模态表征如何在学习中形成、如何参与理解与推理，以及模型架构和训练方式在其中发挥的作用。
+我的研究方向是**高效与可信的人工智能**，重点关注**大语言模型（LLM）和多模态大语言模型（MLLM）**。我希望理解模型如何利用信息、分配计算，并据此提升其学习、推理与行动的效率和可靠性。具体包括：
+
+1. **可解释性**：特征归因与机制可解释性，理解模型如何表示信息并据此作出判断。
+2. **以可解释性指导架构设计与多模态表征学习**，探索高效且可信的训练与推理方法。
+3. **可信 AI 智能体**：交互环境中可靠的推理、决策与学习。
 
 <p class="contact-note">欢迎<a href="mailto:{{ site.author.email }}">发邮件</a>交流科研、探讨合作，或聊聊有意思的想法。</p>
 
@@ -43,7 +47,7 @@ profile_location: "上海，中国"
   <div class="cv-entry cv-entry--marked">
     <img class="institution-mark" src="{{ '/images/institutions/fudan.ico' | relative_url }}" alt="" width="32" height="32" loading="lazy">
     <div class="cv-heading"><h3>复旦大学</h3><span class="cv-date">2027 年（预计入学）</span></div>
-    <p>博士研究生 · <a href="https://nlp.fudan.edu.cn/">自然语言处理实验室</a><br><span class="cv-detail">计算与智能创新学院</span></p>
+    <p>博士研究生 · <a href="https://nlp.fudan.edu.cn/">FudanNLP</a><br><span class="cv-detail">计算与智能创新学院</span></p>
   </div>
   <div class="cv-entry cv-entry--marked">
     <img class="institution-mark" src="{{ '/images/institutions/fuzhou.png' | relative_url }}" alt="" width="32" height="32" loading="lazy">

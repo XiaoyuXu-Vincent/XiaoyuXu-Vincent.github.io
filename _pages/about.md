@@ -3,7 +3,7 @@ permalink: /
 lang: en
 title: "Xiaoyu Xu (许潇予) - Academic Homepage"
 excerpt: "Xiaoyu Xu (许潇予), incoming doctoral student at Fudan University in 2027."
-description: "Xiaoyu Xu (许潇予) will join the NLP Group at Fudan University as a doctoral student in 2027. Research on multimodal large language models, representation learning, reasoning mechanisms, and interpretability."
+description: "Xiaoyu Xu (许潇予) will join FudanNLP at Fudan University's College of Computer Science and Artificial Intelligence as a doctoral student in 2027. Research on efficient and trustworthy AI, focusing on large language models and multimodal large language models."
 author_profile: true
 profile_name: "Xiaoyu Xu"
 profile_name_alt: "许潇予"
@@ -21,9 +21,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I will join the [NLP Group at Fudan University](https://nlp.fudan.edu.cn/) as a doctoral student in 2027.
+I will join [FudanNLP](https://nlp.fudan.edu.cn/) at Fudan University’s College of Computer Science and Artificial Intelligence as a Ph.D. student in 2027.
 
-My research focuses on **multimodal large language models**, particularly **representation learning, reasoning mechanisms, and interpretability**. I am interested in how multimodal representations form during learning and contribute to understanding and reasoning, and how model architecture and training methods shape these processes.
+My research focuses on **efficient and trustworthy AI**, particularly **large language models (LLMs)** and **multimodal large language models (MLLMs)**. I aim to understand how models use information and computation, and turn these insights into more efficient and reliable learning, reasoning, and action. Specifically, I am interested in:
+
+1. **Interpretability:** feature attribution and mechanistic interpretability, to understand how models represent information and use it to make decisions.
+2. **Interpretability-guided architecture design and multimodal representation learning** for efficient and trustworthy training and inference.
+3. **Trustworthy AI agents:** reliable reasoning, decision-making, and learning through interaction with their environments.
 
 <p class="contact-note">Feel free to <a href="mailto:{{ site.author.email }}">email me</a> about research, potential collaborations, or any ideas you'd like to share.</p>
 
@@ -48,7 +52,7 @@ My research focuses on **multimodal large language models**, particularly **repr
   <div class="cv-entry cv-entry--marked">
     <img class="institution-mark" src="{{ '/images/institutions/fudan.ico' | relative_url }}" alt="" width="32" height="32" loading="lazy">
     <div class="cv-heading"><h3>Fudan University</h3><span class="cv-date">2027 (expected)</span></div>
-    <p>Doctoral studies · <a href="https://nlp.fudan.edu.cn/">NLP Group</a><br><span class="cv-detail">College of Computer Science and Artificial Intelligence</span></p>
+    <p>Doctoral studies · <a href="https://nlp.fudan.edu.cn/">FudanNLP</a><br><span class="cv-detail">College of Computer Science and Artificial Intelligence</span></p>
   </div>
   <div class="cv-entry cv-entry--marked">
     <img class="institution-mark" src="{{ '/images/institutions/fuzhou.png' | relative_url }}" alt="" width="32" height="32" loading="lazy">
